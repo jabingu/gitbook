@@ -1,0 +1,73 @@
+{
+    "title": "jabingu's Book",
+    "author": "jabingu",
+    "description": "write some conference paper",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "styles": {
+        "website": "./styles/website.css"
+    },
+    "structure": {
+        "readme": "README.md"
+    },
+    "links": {
+        "sidebar": {
+            "Blog": "https://jabingu.com"
+        }
+    },
+    "plugins": [
+        "-lunr", "-search", "search-pro",
+        "-sharing","sharing-plus",
+        "hide-element",
+        "splitter",
+        "anchors",
+        "katex",
+
+        "tbfed-pagefooter",
+        "github",
+        "custom-favicon",
+        "donate",
+        
+
+        "expandable-chapters-small",
+        "back-to-top-button",
+        "anchor-navigation-ex"
+        
+    ],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/jabingu"
+        },
+        "donate": {
+            "alipay": "./source/images/donate.png",
+            "title": "",
+            "button": "bingo",
+            "alipayText": " "
+        },
+        
+        "hide-element": {
+            "elements": [".gitbook-link"]
+        },
+        "sharing": {
+            "douban": true,
+            "facebook": true,
+            "google": true,
+            "qq": true,
+            "all": [
+                "google", "facebook", "weibo", "twitter",
+                "qq", "qzone", "linkedin", "pocket"
+            ]
+        },
+        "anchor-navigation-ex": {
+            "showLevel": false
+        },
+        "tbfed-pagefooter": {
+            "copyright":"Copyright &copy jabingu.com 2019",
+            "modify_label": "File modification time：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "favicon":
+            "favicon.ico"
+        
+    }
+}

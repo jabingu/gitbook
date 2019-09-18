@@ -1,3 +1,5 @@
+[TOC]
+
 # Partitioned-GC
 
 ## QoS-Aware Flash Memory Controller
@@ -18,3 +20,13 @@
 是在之前的切分GC，real time task GC 的基础上新提出的论文，主要是考虑了整体的Qos保证，内容上主要是提出了一个新的队列的策略。
 
 **好的内容：** 
+
+对之前的内论文进行说明
+
+**B. Flash Translation Layer** 
+
+Because of the impact GC has on overall performance, GC algorithms that provide real-time guarantee have been an active area of interest [10, 14, 15, 16]. While prior techniques focus on bounding the worst-case response time, our approach improves the overall QoS under sustained workloads. RTGC [10] is the first study on real-time garbage collection, but it requires file system support and its worst case performance is limited. GFTL [14] introduces the idea of partial garbage collection to reduce the worst case response time, but at the cost of reduced average response time. RFTL [15] improves both worst case and average case performance but requires a large amount of space overhead. WAO-GC [16] reduces this overhead, but its space overhead reduction depends on the program latency. With the current technology trend of increasing operation latencies in favor of higher density, the benefit of space overhead reduction in WAO-GC is limited. 
+
+**C. Fair Scheduling** 
+
+略

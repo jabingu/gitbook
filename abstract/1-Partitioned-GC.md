@@ -1,5 +1,3 @@
-[TOC]
-
 # Partitioned-GC
 
 ## QoS-Aware Flash Memory Controller
